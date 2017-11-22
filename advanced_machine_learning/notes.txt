@@ -1,0 +1,16 @@
+keywords:
+    Long tail - moast things are quite common, while some are quite rare
+    Covariates - like height and weight of a person
+    Types - pedictive or supervised, descriptive or unsupervised, re-inforcement
+    Classification - in (input, output) if output is categorical or nominal like "tall", "short"
+    Regression - in (input, output) if output is real-valued like 175 cm
+    Knowledged Discovery - finding patterns in  unsupervised data => since no output to compare to no error metrics
+    Function approximation - In classification, when y = f(x), we try to predict to train the function on x to predict y
+
+Classification:
+    We try to map the input x to some output y
+    If number of output types is 2, we call the classification as binary Ex: tall or short
+    If the output type is > 2, we call thisa type of calssification to be multiclass classification Ex: tall, very tall, short, very short
+    If output is of many types, we call this type of classification to be multi-label classification Ex: tall - normal weight, tall - obese, tall - lean
+    Function approximation on training data is usually easy
+    Generalization is when we train the function to predict unseen data
