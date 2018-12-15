@@ -1,25 +1,386 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0e72a82-d077-4591-b3ff-98286c7c2cae" name="Default" comment="" />
+    <list default="true" id="f0e72a82-d077-4591-b3ff-98286c7c2cae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/advanced_machine_learning/.ipynb_checkpoints/Machine Learning Concepts - Code and Implementations-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_machine_learning/Machine Learning Concepts - Code and Implementations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/elementary_data_structures.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/HelloWorld/HelloWorld.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/HelloWorld/HelloWorld.layout" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/HelloWorld/bin/Debug/HelloWorld.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/HelloWorld/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/HelloWorld/obj/Debug/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_java/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numpy/numpy_exercises_from_kyubyong/.ipynb_checkpoints/Array_creation_routines-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark/.ipynb_checkpoints/Examples-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark/Examples.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.ipynb_checkpoints/Python Examples-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.mylyn/.taskListIndex/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.mylyn/.taskListIndex/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/Backups/workspaces.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/BufferUtil-64c482ee248638337b737b26626ac5f5.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Channel-d46114bcab02699eba197adb796f8d9a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Client-ee70fd6ccf93645f80160d67803b7250.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/ClientRequestParser-569fbf82d01658ab1006728651f4ec53.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/ClientRequests-448cd6c4c41fcf0f2f654e625e2eea22.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Config-a4ddef94dcb57cbb7b4304c6cafa5482.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Console-131552dc0747fcda42e3af697dc19d7f.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Context-0829921b7505b19407950ee0a63cd00c.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Contracts-d98a65b6a6b824fae880bb21326b9910.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Deprecation-c4acb4443bd818a51dab7ec490936d50.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Event-7281b98ea735466d2081cb88d4c8c031.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/EventTarget-ea2bae5676ffdede417fb2d15b7d1282.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Exceptions-920b9e98972e15e4de154db9300eca41.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/FastBufferList-97e5e88f5c8090aef4cfb5f93cf43a82.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Logging-2d79f50964f2fccf9c589f80afb5d8f9.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Performance-9db3dd8617fbc69e750cf549673317a1.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/RequestParser-031f34520572249c207c7627a4e0618e.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/RequestResponseHeaders-7864c1997d62accc068e1667d1447313.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Sender-49b9ed5330871acbfd1a16dc634fde8a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/ServerRequestParser-f44ee76e4bc4f9d92abfe6756261c778.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/ServerRequests-8c7c878f7e5ecce155f7d29c79479ad1.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Util-20c22a2f012d457d7261abdd66201c1a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/Validation-52518ebfba2a1fa158c5092c0542ff86.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/W3CWebSocket-857c00b864a77e6763cab134fe97f005.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/WebSocketClient-6a3ec6146f84933309a0b41a2ed44e32.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/WebSocketConnection-9279dfc0d3c64eb7ebdba0897113569d.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/WebSocketFrame-ebb966b206fd3858910c7a3440a8036a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/WebSocketRequest-f82a41d9e541ed285380d8fed73c0a3e.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/WebSocketRouter-aff3d4f104eabc686d0940e8348792c4.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/WebSocketRouterRequest-452b8194a0baca3094324cfb8a649fe0.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/WebSocketServer-3b198ec5a63a5fa70ceb488578f69a3b.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/applicationinsights-01ce5b6eb87e2f12d4f5ab5c3a966dce.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/bindings-08b7efeccc125f84dbb5d6a840413f40.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/bindings-6d00a13453f394b625636f8d8940f6a2.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/bom-handling-b9463985421126a2558ccc83b16cc1e7.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/bom-handling-fc398fa0b0549a32d66e11386fddd55b.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/browser-06ead25db4260e829dea942fbbaa3b7f.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/dbcs-codec-ba3332c90b07cc4a45007df33ee7c90d.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/dbcs-data-a4556d1ebe6dec1b18da6fe3360b9e8a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/debug-c5a5ad6663a5c9c59a3ea874c8c16f32.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/extend-node-5f14b760d94ec93759061a5e9f7934cd.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/extend-node-90bc557293d05d9a008a2cbbdce67452.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/fs-130128eea5b2dd77b5b1252927a1263f.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/graceful-fs-98a69be42ad8aa6dc7e96fae3585a704.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-02548fa8bebf3eb5dc582f4f80cfaed3.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-072fde9a3ebc3faa2f674876abb3fa25.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-17d40abd449d258694ff5a97dafe15ab.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-238ace69f65f0efdb948235cbd68c597.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-25d8311cbec539281b70d5a3b6935d69.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-30c67f96d85c0a0c53a24a5d2006ad7a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-31cbb24de51b9b559f1b1d16f2f1b998.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-38275c7537e59948f56655c57c8bf0c2.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-449fdadd6a4827eda6852f9fc7ce1bc4.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-51fed564d2f3c08748abe20d0c699f91.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-54c5ec4c0f434b01b5a1ee974035080a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-58b591495c0d3e771c5bcddb146789c1.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-5c9d6ef6ef0105c0d8a09d1afa17b3a7.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-663516ef182f5da437f23883ac9efbb3.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-6c6faca351e19a950d05d884cb6f9b47.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-757b31b2872ec08ce196576455fb7d96.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-88b1763e26950edb3c251c5c44365e97.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-920398e56bdbbf40ca260f876b538f33.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-989a564c98e9737eb8c44a43d51f452e.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-a67e1dfeed145a20da0daf09bf0aa4b7.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-acd2c425801bad76905676447c9ffa8e.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-ad462e079ed70c37edc69c786bcd1272.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-b5b414b3e957631a7ba55c649ce6cf3a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-bcf3d0aa8511903290f514b5cefffb17.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-bfdf34f3fa808c5030bb5d83a32ac2f9.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-cb140cb3dd1f635f02551dd45217de93.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-ced46ced19321323820c40adb188dc09.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-cfdc21faa289f34d24c6b1b50d9c3fc2.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-d27363df638fbe6e8c9f5a02601d3ce4.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-d69d683c3f9f52c60f2f8b4fa9a2ed7c.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-ea70b9502253c65175281ea68291a7a4.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-ed0310ca6665dc86eca701f1c7922e81.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/index-f79b2653b9a97eec1f9e75b8386dee68.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/internal-0d7ed9e816ed8d6e98922cfcecd5c753.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/legacy-streams-77f93b8240786ad6f2f7db08bb5e211a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/main-1a02f2d2f33f4a307ccd0e3332167ecf.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/main-6a9a75375cb9f68b91fff47a8a0f954d.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/main.nls-14a8566820794b5e4869bea90eb850bb.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/paths-27d71765f4cee709a5820ddd9a7eedf1.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/paths-5c7050d97d348478f06741d0af25f558.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/polyfills-bad4962bbede7c2b31c2bddfc4bc1224.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/safer-4faa5bfe401cffca3f8e4a360ef1cb05.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/safer-d280f266c78b52e3ba661b1d37a7e756.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/sbcs-codec-cf67799b744e2813283581cc3b720c50.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/sbcs-data-b431cdda5e84a9d8699086d6754b4b33.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/sbcs-data-generated-eb8265d061d6f0cf647cd40aa3d2d5e4.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/screen-4a8bd6072d9d8a112c72462422a3d4a6.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/semver-91ddea5010d7f157577a2ba6990185d3.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/sharedProcessMain-6d2baf095fbf1a86a7d83122d4d58c18.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/sharedProcessMain.nls-30f34c06e995464af0100fde4316ba5a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/streams-73b1ce1be6bfbb76131fd9a34cafba75.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/streams-9cf2fb4f9401beb542ecfbe080cb4cbd.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/system-preferences-6a517b4c3b5608ab7f7f07413900127c.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/terminal-2928eb00a1cb03d18a7ec4fa435c41bd.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/utf16-908bee9e7aa6e5beebe1bec36cdb6d49.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/utf7-46f0eceadbf68c1a4b5482c4d0249619.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/utils-2071052d1ede32481f8d8eb51fef3302.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/utils-58f415b7333554663829517484ae388e.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/version-8e89d625b5d0a7322e23e834213ac0b0.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/websocket-1735ef781b0d0b379262d3ae7dcba41f.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/windowsPtyAgent-ccaba63c70bf813fbd8b96c8d20daff1.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/windowsTerminal-24bf1dff2ce5dd087b745d3516a1a03a.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/workbench.main-ac4c3c1f7b1e316bcc9f8d92bd6e8817.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedData/4d4ae9251315d22fd2ab3b400dcd59c366620bd1/workbench.main.nls-0816490c730d2455fccd3ec522e42e5c.code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedExtensions/builtin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/CachedExtensions/user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/Cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/Cookies-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/GPUCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/GPUCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/GPUCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/GPUCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/GPUCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/Local Storage/file__0.localstorage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/Local Storage/file__0.localstorage-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/Preferences" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/User/workspaceStorage/f15f92d3847063bcce1cdf27b93774d3/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/languagepacks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T180626/exthost1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T180626/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T180626/output_1_20181012T180629/extensions.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T180626/output_1_20181012T180629/tasks.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T180626/renderer1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T180626/sharedprocess.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T180626/telemetry.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T181154/exthost1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T181154/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T181154/output_1_20181012T181155/extensions.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T181154/output_1_20181012T181155/tasks.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T181154/renderer1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T181154/sharedprocess.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T181154/telemetry.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T210100/exthost1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T210100/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T210100/output_1_20181012T210104/extensions.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T210100/output_1_20181012T210104/tasks.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T210100/renderer1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T210100/sharedprocess.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181012T210100/telemetry.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181013T163248/exthost1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181013T163248/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181013T163248/output_1_20181013T163251/extensions.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181013T163248/output_1_20181013T163251/tasks.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181013T163248/renderer1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181013T163248/sharedprocess.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181013T163248/telemetry.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181014T213237/exthost1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181014T213237/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181014T213237/output_1_20181014T213243/extensions.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181014T213237/output_1_20181014T213243/tasks.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181014T213237/renderer1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181014T213237/sharedprocess.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/logs/20181014T213237/telemetry.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/machineid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixUserData/storage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/validationIndex/timestamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/validationIndex/timestamps.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.core/validationIndex/timestamps.t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code.monitor/codemix-usage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.code/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/color-definitions-fix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/splash-fix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.code.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.code.debug.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.code.monitor.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.code.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.code.ui.welcome.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.monitor.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.github.eclipsecolortheme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.tm.terminal.control.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.xtend.core.Xtend.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/http-cache.lucene60/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/http-cache.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/local-history.lucene60/_0.cfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/local-history.lucene60/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/local-history.lucene60/_0.si" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/local-history.lucene60/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/local-history.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.code.ui/server-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.si" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.epp.mpc.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.core/index.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.userstorage.oauth/org.eclipse.userstorage.oauth.persistence" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/.plugins/org.python.pydev/pyunit_tests/test_run_pin_info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/codemix.code-workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/com.genuitec.eclipse.webclipse.livepreview/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/.pydevproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/Python Examples.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/com.mohan/Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r/.RData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r/.Rhistory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r/iris_given_species.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r/iris_kmeans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r/plot_of_iris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/exercise_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/sample_students_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/w3examples.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/w3resource_exercises.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/course_work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/course_work.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_machine_learning/.ipynb_checkpoints/Advanced_Machine_Learning_in_Python-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_machine_learning/.ipynb_checkpoints/Advanced_Machine_Learning_in_Python-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_machine_learning/Advanced_Machine_Learning_in_Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_machine_learning/Advanced_Machine_Learning_in_Python.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy/numpy_exercises_from_kyubyong/Array_creation_routines.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy/numpy_exercises_from_kyubyong/Array_creation_routines.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-599816420">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="py" value="1" />
+          <entry key="vmoptions" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="19" />
+          <entry key="py" value="278" />
+          <entry key="vmoptions" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="19" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="278" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learning_java/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/python3/com.mohan/Utils.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -33,12 +394,18 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="course_work" type="b2602c69:ProjectViewProjectNode" />
               <item name="course_work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course_work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course_work" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -48,6 +415,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542834770276" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -65,6 +434,25 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="JDK_1.8.0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Test.java" />
+      <module name="course_work" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="JDK_1.8.0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Test.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,35 +463,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530948304996</updated>
+      <workItem from="1538305111236" duration="243000" />
+      <workItem from="1542834584122" duration="778000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +515,26 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
+    <entry file="file://$PROJECT_DIR$/python3/com.mohan/Utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -1,0 +1,14 @@
+.idea/
+*.xml
+*.iml
+.ipynb_checkpoints/
+python3/__pycache__/
+python3/.recommenders/
+.project
+.metadata
+python3/Learning_Java/.settings/
+python3/Learning_Java/.classpath
+python3/Learning_Java/.gitignore
+python3/textpackage/__pycache__/
+python3/.gitignore
+*.pydevproject
