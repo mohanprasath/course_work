@@ -12,3 +12,5 @@ python3/Learning_Java/.gitignore
 python3/textpackage/__pycache__/
 python3/.gitignore
 *.pydevproject
+*.exe
+*.log
