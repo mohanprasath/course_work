@@ -13132,7 +13132,7 @@ div#notebook {
 <li>public places like parks,</li>
 <li>places to have leisure sctivities like going to restaurants, movie theaters, saunas, gym, etc.,</li>
 </ol>
-<p>These are few common things to consider during a relocation and they are very important for a healthy and stress free life. And doing an Online search for these is time consuming. In this project, we aim to meet atleast some common requirements like <strong>public places, parks, restaurants etc.</strong>  and guide the project users to choose atleast 1 or more neighborhoods for their consideration during their relocation. By rating the neighborhoods based upon the available amenities they have, we can recommend the neighborhood in a city in a ranked order. This is the goal of this project.</p>
+<p>These are few common things to consider during a relocation and they are very important for a healthy and stress free life. And doing an Online search for these is time consuming. In this project, we aim to meet atleast some common requirements like <strong>parks, restaurants, bus termianls, coffee shops, bars, shopping malls, pubs, sschools, train stations, parks, hospitals, police stations</strong>  and guide the project users to choose atleast 1 or more neighborhoods for their consideration during their relocation. By rating the neighborhoods based upon the available amenities they have, we can recommend the neighborhood in a city in a ranked order. This is the goal of this project.</p>
 <p><strong>Target Audience:-</strong><br>
 Someone who wants to relocate to a city based on available public services.</p>
 <p><strong>Stakeholders:-</strong></p>
@@ -13169,8 +13169,25 @@ Location coordinates obtained by Foursquare API calls.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Analysis">Data Analysis<a class="anchor-link" href="#Data-Analysis">&#182;</a></h1><p>Analyzed data revels the neighborhoods in Toronto with highest emenities.</p>
-<p><img src="Available Neighborhoods.png"></p>
+<h1 id="Data-Analysis">Data Analysis<a class="anchor-link" href="#Data-Analysis">&#182;</a></h1><h2 id="Finding-Latitude-and-Longitude">Finding Latitude and Longitude<a class="anchor-link" href="#Finding-Latitude-and-Longitude">&#182;</a></h2><ol>
+<li>After learning the neighborhood and its details, we prepare the address of each neighborhood and request Geolocator for their latitude and longitude in the following code. </li>
+<li>To verify the accuracy fo the latitude and the longitude values we call do reverse geolocation using the geocoder.</li>
+</ol>
+<p><strong>Result:-</strong>
+We have found 67 neighborhoods in Toronto. The neighborhoods are redeuced to 6 districts in the final summary.</p>
+<h2 id="Using-FourSquare-for-Finding-the-public-places-nearby-the-neighborhoods">Using FourSquare for Finding the public places nearby the neighborhoods<a class="anchor-link" href="#Using-FourSquare-for-Finding-the-public-places-nearby-the-neighborhoods">&#182;</a></h2><ol>
+<li><p>For the 64 locations that we have found the LatLon values, we use foursquare to find the public places like coffee shops, bars, other shops, pubs, schools train startion, bus stations, parks , etc.</p>
+</li>
+<li><p>We use a radius of 1 KM for each neighborhood within which the foursquare api will return the above searched public spaces and their information. We search for atleast 200 such spaces in a neighborhood.</p>
+</li>
+<li><p>The def get_category_type function analyses the values returned by the foursquare API and  filters the venue categories and find out if they matches the public space types that we are looking for.</p>
+</li>
+</ol>
+<p><strong>Reuslts:-</strong><br>
+For the 67 neighborhoods we provided to Foursquare API, we received information on 4554 public places.</p>
+<p><strong>Plots:-</strong>
+The following graph Visualizes- the Number of Venues Obtained by each type form the FourSquare API.
+<img src="no_of_venues.jpg"></p>
 
 </div>
 </div>
@@ -13179,6 +13196,11 @@ Location coordinates obtained by Foursquare API calls.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Methods---Clustering">Methods - Clustering<a class="anchor-link" href="#Methods---Clustering">&#182;</a></h1><p>The above data obtained from Foursquare is now analyzed for figuring out the best neighborhoods among the recived data. For more information refer the ipython notebook in the Github folder as this file you are reading.</p>
+<h3 id="Scatter-Plot-of-all-the-venues-in-Toronto">Scatter Plot of all the venues in Toronto<a class="anchor-link" href="#Scatter-Plot-of-all-the-venues-in-Toronto">&#182;</a></h3><p><img src='Public_Places_Scatter_Plot.png'></p>
+<h2 id="Visulaization-of-the-Neighborhoods-in-Toronto-Using-Folium-maps">Visulaization of the Neighborhoods in Toronto Using Folium maps<a class="anchor-link" href="#Visulaization-of-the-Neighborhoods-in-Toronto-Using-Folium-maps">&#182;</a></h2><p><img src='Toronto Neighborhood.jpg'></p>
+<h2 id="Visualizing-public-locations-only-in-Downtown-Toronto-Neighborhood">Visualizing public locations only in Downtown Toronto Neighborhood<a class="anchor-link" href="#Visualizing-public-locations-only-in-Downtown-Toronto-Neighborhood">&#182;</a></h2><p><img src='public venues in Downtown Toronto.jpg'></p>
+<p>Clustering the above locations using the k-Means Clustering algorithm yielded a clear set of 6 clusters as shown in the image below.</p>
+<p><img src='Clusters of Neighborhoods in Toronto Reduced clusters.png'></p>
 
 </div>
 </div>
@@ -13186,7 +13208,7 @@ Location coordinates obtained by Foursquare API calls.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Result">Result<a class="anchor-link" href="#Result">&#182;</a></h1><p>Downtown Toronto has more places in Toroto when compared to West Toronto. So when a person wants to relocate based upon all the avilable amenities they can recognize that Downtown Toronto is the best of all the avilable options.</p>
+<h1 id="Result">Result<a class="anchor-link" href="#Result">&#182;</a></h1><p>Downtown Toronto has more places in Toroto when compared to all remaining neighborhoods. So when a person wants to relocate based upon all the avilable public amenities they can recognize that Downtown Toronto is the best of all the avilable options. The above deductions is purely done based upon the quantity of the public amenities available and not on the quality of these servies. This is a drawback of the above project.</p>
 
 </div>
 </div>
@@ -13194,24 +13216,24 @@ Location coordinates obtained by Foursquare API calls.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Dicussion">Dicussion<a class="anchor-link" href="#Dicussion">&#182;</a></h1><p>The above project can be modified such that neighborhoods from various cities can be included.</p>
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>This project was fun to work with, Now atleast I can rank the nighborhoods easily in the future when I am goign to relocate.</p>
+<h1 id="Dicussion">Dicussion<a class="anchor-link" href="#Dicussion">&#182;</a></h1><ol>
+<li>The above project can be modified such that neighborhoods from various cities can be included. </li>
+<li>Furthermore, choosing a place to reside in the near future based upon the amount of public amenities doesn't guarantee peace of mind, or health in that case. More analysis on the quality fo these services provided can be useful for further analysis. </li>
+<li>The Limitation of the above project is due to the limits of the numebr of calls that can be made to the Foursquare API. 4. I'm planning to change the API call module to Google Places API, which impoves the number of call done from 950 to 10,000 per day. </li>
+</ol>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>This project was fun to work with, Now we can rank(based upon the quantity of public services available) the nighborhoods easily in the future when anyone has to relocate.</p>
+<h1 id="References">References<a class="anchor-link" href="#References">&#182;</a></h1><ol>
+<li><a href="https://en.wikipedia.org/wiki/Main_Page">https://en.wikipedia.org/wiki/Main_Page</a></li>
+<li><a href="https://foursquare.com">https://foursquare.com</a></li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html">https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html">https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html</a></li>
+<li><a href="https://developers.google.com/places/web-service/intro">https://developers.google.com/places/web-service/intro</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Toronto">https://en.wikipedia.org/wiki/Toronto</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_neighbourhoods_in_Toronto">https://en.wikipedia.org/wiki/List_of_neighbourhoods_in_Toronto</a></li>
+</ol>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
