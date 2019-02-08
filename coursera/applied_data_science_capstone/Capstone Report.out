@@ -1,0 +1,18 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Project Description}{}% 2
+\BOOKMARK [1][-]{section.3}{Data Description}{}% 3
+\BOOKMARK [2][-]{subsubsection.3.0.1}{Wikipedia:-}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.0.2}{Foursquare API:}{subsubsection.3.0.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.0.3}{Public Programming Tools:-}{subsubsection.3.0.1}% 6
+\BOOKMARK [3][-]{subsubsection.3.0.4}{K-Means Clustering Algorithm on the Data:-}{subsubsection.3.0.1}% 7
+\BOOKMARK [1][-]{section.4}{Data Analysis}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Finding Latitude and Longitude}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Using FourSquare for Finding the public places nearby the neighborhoods}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Methods - Clustering}{}% 11
+\BOOKMARK [2][-]{subsubsection.5.0.1}{Scatter Plot of all the venues in Toronto}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Visulaization of the Neighborhoods in Toronto Using Folium maps}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Visualizing public locations only in Downtown Toronto Neighborhood}{section.5}% 14
+\BOOKMARK [1][-]{section.6}{Result}{}% 15
+\BOOKMARK [1][-]{section.7}{Dicussion}{}% 16
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 17
+\BOOKMARK [1][-]{section.9}{References}{}% 18
