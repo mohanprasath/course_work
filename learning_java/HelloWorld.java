@@ -3,6 +3,7 @@ public class HelloWorld
 
     private void data_types(){
         System.out.println("Data Types Function:-");
+        //https://www.learnjavaonline.org/en/Variables_and_Types
         // int
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
