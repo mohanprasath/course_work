@@ -9,7 +9,14 @@ Created on Sun Nov 10 21:57:08 2019
 for i in range(1, 20):
     m = i
     n = i
-    print(math.factorial(m+n)/(math.factorial(m)* math.factorial(n)) - m*n)
+    result = math.factorial(m+n)/(math.factorial(m)* math.factorial(n)) - m*n
+    if m == 1:
+        result = result
+    elif result % 2 == 0:
+        result -= m/2
+    else:
+        result -= m
+    print(result)
     
 #def factorial(n):
 #    result = 1
@@ -49,6 +56,6 @@ for i in range(1, 20):
 #
 #print paths()
 
-from math import factorial, pow
-for grid in range(1, 20):
-    print(int(factorial(2 * grid) / pow(factorial(grid), 2))- grid * grid)
+#from math import factorial, pow
+#for grid in range(1, 20):
+#    print(int(factorial(2 * grid) / pow(factorial(grid), 2))- grid * grid)
