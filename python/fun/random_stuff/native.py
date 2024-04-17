@@ -4,13 +4,18 @@ class Test:
         return self
 
     def __next__(self):
-        self.count += 1
-        return self.count
+        if self.count <= 20:
+            self.count += 1
+            return self.count
+        else:
+            raise StopIteration
 
 
 test = Test()
 test_iterator = iter(test)
-print(next(test_iterator))
-print(next(test_iterator))
-print(next(test_iterator))
-print(next(test_iterator))
+for i in range(25):
+    try:
+        print(next(test_iterator))
+    except StopIteration:
+        print("StopIteration")
+
