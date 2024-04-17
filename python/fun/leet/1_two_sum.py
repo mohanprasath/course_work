@@ -1,6 +1,7 @@
 class Solution:
     def twoSum(self, nums: [int], target: int) -> [int]:
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            if complement in nums[i+1:]:
-                return i, nums[i+1:].index(complement) + i + 1
+        location = dict()
+        for i, num in enumerate(nums):
+            if target - num in location:
+                return [i, location[target-num]]
+            location[num] = i
