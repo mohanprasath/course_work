@@ -1,10 +1,16 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        max_val = 0
-        length = len(height)
-        for i, h in enumerate(height, start=1):
-            temp = (length - i) * min(h, height[-1])
-            if temp > max_val:
-                max_val = temp
-            print(i, (length - i), h, height[-1], max_val)
-        return max_val
+        left = 0
+        right = len(height) - 1
+        area_max = 0
+
+        while left < right:
+            area = (right - left) * min(height[left], height[right])
+            area_max = max(area_max, area)
+
+            if height[left] < height[right]:
+                left += 1
+            else:
+                right -= 1
+
+        return area_max
