@@ -37,6 +37,10 @@ print(binary_search_iterative(data,  5))
 print(binary_search_iterative(data,  10))
 print(binary_search_iterative(data,  15))
 '''
+recursive
 O(log n) time complexity 
 O(log n) space complexity
+iterative
+O(log n) time complexity 
+O(1) space complexity
 '''
