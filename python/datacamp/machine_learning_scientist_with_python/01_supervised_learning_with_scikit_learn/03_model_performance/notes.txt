@@ -1,11 +1,45 @@
 Notes
 
-Class imbalance - some samples are in greater quantity than other classes
+accuracy - fraction of correct classification
+Class imbalance - some samples are in greater quantity than other classes ex: bank transactions (legitimate & fradulant)
 Confusion matrix can avoid the issues with just using the accuracy
+
+                        predicted:      predicted:
+                        legitimate      fradulant
+actual: legitimate      true negative   false positive
+actual: fradulant       false nagative  true positive
+
 precision = tp/tp+fp
+high precision = lower false positive rate
+
 recall = tp/tp+fn aka sensitivity
+high recall = lower false negative rates
+
 accuracy = tp/tp+tn
-
 f1 score = harmonic mean of precision and recall = 2 * (precision*recall)/(precision + recall)
-f1 score  favors models with similar precison and recall
+f1 score favors models with similar precision and recall
 
+from sklearn.metrics import confusion_matrix
+
+# logistic regression
+
+- in diabetes data, p>0.5 diabetes, p< 0.5 no diabetes
+- from sklearn.linear_models import LogisticRegression
+- know what probability threshold to be set for the model
+- ROC curve can help with finding the correct threshold
+- plotting the ROC curve
+    - import sklearn.metrics import roc_curve
+    - fpr, tpr, threshold is returned
+    - tpr with 1 and fpr with os is a perfect model
+    - roc_auc_curve
+
+# hyperparameter tuning
+
+- alpha required in ridge, lasso
+- n required in knn
+- so correct hpm is very important for model performance
+- cross validation is used here to avoid over fitting
+- HPM tuning avoiding methods:
+    - grid search GridSearchCV
+    - random search RandomizedSearchCV
+    
