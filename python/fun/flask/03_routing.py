@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def main_page():
-    return 'Index Page'
+    return 'Main Page'
 
 @app.route('/contact')
 def contact_page():
     return 'Contact Page'
 
-if '__name__' == '__main__':
+if __name__=='__main__':
     app.run()
