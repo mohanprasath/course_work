@@ -16,3 +16,9 @@ python3/.gitignore
 *.log
 *.crc
 .DS_Store
+
+# all python related gitignore
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
