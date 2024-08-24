@@ -15,12 +15,10 @@ python3/.gitignore
 *.exe
 *.log
 *.crc
+.DS_Store
 
 # all python related gitignore
 *.pyc
 *.pyo
 *.pyd
 __pycache__/
-
-
-# End of .gitignore
