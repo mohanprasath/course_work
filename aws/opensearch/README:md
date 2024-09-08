@@ -1,0 +1,15 @@
+# AWS OpenSearch Basic Setup Project
+
+## Setup
+
+1. Information on steps involved are shown as pictures in the pictures folder
+2. Upload the documents to the cluster - single document
+    ```curl -XPUT -u 'master-user:master-user-password' 'domain-endpoint/movies/_doc/1' -d '{"director": "Burton, Tim", "genre": ["Comedy","Sci-Fi"], "year": 1996, "actor": ["Jack Nicholson","Pierce Brosnan","Sarah Jessica Parker"], "title": "Mars Attacks!"}' -H 'Content-Type: application/json'```
+3. You can also do multiple document uploads
+    ```curl -XPOST -u 'master-user:master-user-password' 'domain-endpoint/_bulk' --data-binary @bulk_movies.json -H 'Content-Type: application/json'```
+4. Searching the documents for key word using the API
+    ```curl -XGET -u 'master-user:master-user-password' 'domain-endpoint/movies/_search?q=mars&pretty=true'```
+5. Searching using the web UI in the AWS OpenSearch
+    ```domain-endpoint/_dashboards/```
+    refer images starting with prefix 11_ to  21_
+6. Delete the domain before logout
