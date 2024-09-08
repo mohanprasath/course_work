@@ -13,3 +13,7 @@
     ```domain-endpoint/_dashboards/```
     refer images starting with prefix 11_ to  21_
 6. Delete the domain before logout
+
+## Reference
+
+https://github.com/johnny-chivers/amazon-opensearch-service/blob/main/README.md
