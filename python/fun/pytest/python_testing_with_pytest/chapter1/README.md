@@ -26,3 +26,8 @@ pytest --tb=no chapter1/test_one.py::test_passing
 - PASSED, FAILED, SKIPPED, XFAIL, XPASS, ERROR
 - @pytest.mark.skip(), @pytest.mark.skipif()
 - @pytest.mark.xfail
+
+## Running the exercises
+
+- use the following to know more about passed and failed tests info
+pytest -vv exercise5.py
