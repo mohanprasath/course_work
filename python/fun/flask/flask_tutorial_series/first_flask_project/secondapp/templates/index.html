@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{%  block title %} Index Page {% endblock %}
+{% block content %}
+ <h1>Hello World</h1>
+    <h2>Welcome to {{ name }} and the current version is {{ version }}</h2>
+    <ul>
+        {%  for item in dataList %}
+                <li {% if item > 100 %}style="color:red" {% endif %}>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <p>{{ dataList }}</p>
+
+{% endblock %}

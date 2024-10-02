@@ -19,4 +19,20 @@
 - Sepcific content type with status code is also feasible check `hello`
 - A sample curl request, ` curl -X POST -I http://127.0.0.1:5555/hello`
 - `make_response` can eb used to emulate the repsonse header and body programmatically in Flask
-- 
+
+## Templating & HTML Files
+
+- Keywords: templates, render html files, redirect, dynamic urls for specific end points, jinga filters & tempalting engines, custom filters
+- Sample Projects - Secondapp
+- ### Templates:
+  - check the sample code in `index()` function
+  - point out the templates folder while creating the `Flask` app
+  - load the required template in any function using the `render_template`
+  - Check `base.html` for sample code on how to use a page template
+- ### Filters:
+  - `template_filter` decorator helps you to implement custom filter
+  - similar to functions - reusable
+  - uses the `@app.template_filter('')`
+- ### Redirect URLs & Dynamic Urls:
+  - For dynamic Urls, i.e. where the url might change, `url_for` function is to the rescue 
+  - For URL Redirection, use the `redirect` function as required

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Second App{% endblock %}</title>
+</head>
+<body>
+    <p>Hello, Welcome to the Second Flask App!</p>
+    {% block content %}
+    {% endblock %}
+<a href="{{ url_for('index') }}">Home Page</a>
+<a href="{{ url_for('other') }}">Other Page</a>
+<a href="{{ url_for('filters') }}">Filters Page</a>
+</body>
+</html>

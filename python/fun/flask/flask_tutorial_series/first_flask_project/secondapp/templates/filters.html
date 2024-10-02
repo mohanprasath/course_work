@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{%  block title %} Filters Page {% endblock %}
+{% block content %}
+    <h2>Welcome to {{ name }} and the current version is {{ version }}</h2>
+    <p>This is the Filters Page</p>
+
+    <p>{{some_text }}</p>
+    <p>{{some_text|lower }}</p>
+    <p>{{some_text|upper }}</p>
+    <p>{{some_text|alternate_text }}</p>
+    <p>{{some_text|reverse_string }}</p>
+    <p>{{some_text|repeat }}</p>
+    <p>{{some_text|repeat(5)}}</p>
+
+{% endblock %}
