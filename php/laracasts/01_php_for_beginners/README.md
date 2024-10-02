@@ -1,5 +1,9 @@
 # PHP For Beginners
 
+## Intro
+
+Pick any langauge and then learn the concepts. Expand it from there.
+
 ## Installation - mac
 
 - browser, editor, etc
