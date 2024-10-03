@@ -9,6 +9,7 @@
 - A simple Hello world application
 - to save the current project pypi packages `pip freeze > requirements.txt`
 
+# Second Flask Project
 ## Static and Dynamic URLS
 
 - For testing purposes, use `https://1127.0.0.1:5555/handle_url_params?greeting=Welcome&name=Satyaa`
@@ -18,7 +19,7 @@
 - Check the hello mwthods for example in ahndling multiple request types
 - Sepcific content type with status code is also feasible check `hello`
 - A sample curl request, ` curl -X POST -I http://127.0.0.1:5555/hello`
-- `make_response` can eb used to emulate the repsonse header and body programmatically in Flask
+- `make_response` can be used to emulate the repsonse header and body programmatically in Flask
 
 ## Templating & HTML Files
 
@@ -29,6 +30,7 @@
   - point out the templates folder while creating the `Flask` app
   - load the required template in any function using the `render_template`
   - Check `base.html` for sample code on how to use a page template
+  - import a template using `extends` command. Check `index.html`
 - ### Filters:
   - `template_filter` decorator helps you to implement custom filter
   - similar to functions - reusable
@@ -36,3 +38,26 @@
 - ### Redirect URLs & Dynamic Urls:
   - For dynamic Urls, i.e. where the url might change, `url_for` function is to the rescue 
   - For URL Redirection, use the `redirect` function as required
+
+# Third Flask Project - thirdapp
+
+- Keywords: Forms, File uploads & downloads, JS Post Requests, JSON Data
+  - ### Forms:
+    - include more methods in app routes `@app.route('/something', methods=['GET', 'POST'])` 
+    - `request.method` and `request.form['variable_name´]` helps in fetching thr required values
+    - type cast is required (?) how does types version looks like
+    - use the typical html form and then in actions call the url `action="{{ url_for('/something') }}"`
+    - get the variables from the form data using `request.form('form_variable_id')`
+  - ### File Upload:
+    - key flask functions: `request.files["FILE_NAME_HTML_INPUT]`, `file.content_type`
+    - key html functions: `ecntype="multipart/form-data`, `<input type="file" accept="CONTENT-TYPES">`
+  - ### File Download:
+    - key flask function: `send_from_directory(directory='downloads', path=filename, download_name='results_two.csv')`
+    - Sample return with Response: `Response(FILE_OBJ, mimetype="text/csv", headers={'Content-Disposition':'attachment'; filename=results.csv})`
+    - `uuid` library can be used for generating almost non-repeating values
+  - ### JSON Data:
+    - key flask functions: `jsonify` library can help in the return values
+  - ### JS POST Requests:
+    - similar to form action use the `url_for{{ "SAMPLE_URL" }}`
+    - learn about the fetch method in the JS. Example code contains an eventListener function call
+    
