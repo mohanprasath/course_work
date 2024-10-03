@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %} Index Page {% endblock %}
+
+{% block content %}
+    <h1>Index Page for Flask Third Application</h1>
+    <form method="POST" action="{{ url_for('index') }}">
+        <input type="text" name="username" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="submit" value="Login">
+    </form>
+
+    <h1>File Upload</h1>
+    <form method="POST" action="{{ url_for('fileupload') }}" enctype="multipart/form-data">
+        <input type="file" name="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel, text/plain, text/csv" required/>
+        <input type="submit" name="Upload File" value="Upload File"/>
+    </form>
+
+    <h1>Convert Excel to CSV</h1>
+    <form method="POST" action="{{ url_for('convert_csv') }}" enctype="multipart/form-data" >
+        <input type="file" name="file" required accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"/>
+        <input type="submit" name="Convert CSV" value="Convert CSV"/>
+    </form>
+
+    <h1>Convert CSV Two</h1>
+    <form method="POST" action="{{ url_for('convert_csv_two') }}" enctype="multipart/form-data" >
+        <input type="file" name="file" required accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"/>
+        <input type="submit" name="Convert CSV" value="Convert CSV"/>
+    </form>
+
+    <h1>Javascript JSON request</h1>
+    <button id="post_button"  onclick="{{ url_for('handle_post', ) }}">Send POST Request</button>
+
+    <script type="text/javascript">
+        const postButton = document.getElementById('post_button');
+        const jsonData = {'name': 'Sav', 'greeting' : 'Hello!'}
+        postButton.addEventListener('click', function() {
+            fetch('{{ url_for("handle_post") }}', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json; charset=utf-8',
+                },
+                body: JSON.stringify(jsonData)
+            })
+                .then(response => response.json())
+                .then(data => console.log('success', data))
+                .catch(error => console.log('error', error));
+        });
+    </script>
+
+{% endblock %}
