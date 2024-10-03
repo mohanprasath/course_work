@@ -60,4 +60,10 @@
   - ### JS POST Requests:
     - similar to form action use the `url_for{{ "SAMPLE_URL" }}`
     - learn about the fetch method in the JS. Example code contains an eventListener function call
-    
+
+# Static Files Project - fourthapp
+  - Keywords: static files, integrating bootstrap js
+  - http 2 support in flask (?)
+  - ### Static Files:
+    - simple map the directory and its path in the Flask app creation `Flask(__name__, template_folder='templates', static_folder='static', static_url_path='/')`
+
