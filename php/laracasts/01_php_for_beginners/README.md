@@ -14,7 +14,7 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - brew install mysql
 - brew install composer
 
-## Demo Project 1
+## 01 The Fundamentals
 
 - `php -h` for getting help info on php
 - `php -S localhost:8888` loads the index.html file in the web browser
@@ -29,3 +29,19 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - Functions in php starts with the keyword `function`
 - `array_filter()` is used to filter the array based on the condition. Example `array_filter($books, fn($book) => $book === 'book1')` 
 - require and include are used to include the files in php. For example, `require 'index.view.php';` loads the index.view.php file
+
+## 02 Dynamic Web Applications
+- partials folder is used to store the partials of the web application
+- `var_dump()` can be useful in debugging the code by printing the type and value of the variable
+- `$_SERVER`is a super global in php
+- html `<pre>` tag is used to preserve the formatting of the text in the browser followed by the `</pre>` tag
+- try to do micro improvements always; Code readability will improve;
+- `parseurl()` is used to parse the url in php. It separates the url into different parts: scheme, host, path, query, etc
+- `http_response_code(404)` is used to set the response code to 404 in php to the client browser
+- A class is a blueprint for creating objects in php
+- `public` is an access modifier in php
+- `new` keyword is used to create a new instance of the class
+- `->` is used to access the properties and methods of the class
+- declare function visibility in the class, its a good practice
+- `_GET` is used to get the query parameters from the url
+- 
