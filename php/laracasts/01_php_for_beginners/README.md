@@ -31,6 +31,7 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - require and include are used to include the files in php. For example, `require 'index.view.php';` loads the index.view.php file
 
 ## 02 Dynamic Web Applications
+
 - partials folder is used to store the partials of the web application
 - `var_dump()` can be useful in debugging the code by printing the type and value of the variable
 - `$_SERVER`is a super global in php
@@ -44,4 +45,19 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - `->` is used to access the properties and methods of the class
 - declare function visibility in the class, its a good practice
 - `_GET` is used to get the query parameters from the url
-- 
+
+## 03 Notes Mini-Project
+
+- Refresh SQL DDL, DML Basics
+- Create a table in mysql: Refer the SQL folder for detailed code
+- Authorization - prevents unauthorized access to the application; status code usually associated with this is 401, 403
+- `404` is a status code for not found
+- `Response.php` - increases the readability of the code by storing the response code and message in a separate file
+- All of the form inputs needs a name attribute to be sent to the server
+- `get` method is used to get the data from the server and `post` method is used to send the data to the server
+- `get` request is idempotent and `post` request is not idempotent
+- Data Sanitization - prevents the sql injection attacks, also prevents the xss attacks, etc
+- `htmlspecialchars()` is used to sanitize the data in php
+- A pure function is a function that does not have any side effects or dependencies
+- `filter_var` is used to filter the data in php based on the filter type
+
