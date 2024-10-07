@@ -53,11 +53,20 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - Authorization - prevents unauthorized access to the application; status code usually associated with this is 401, 403
 - `404` is a status code for not found
 - `Response.php` - increases the readability of the code by storing the response code and message in a separate file
-- All of the form inputs needs a name attribute to be sent to the server
+- All the form inputs needs a name attribute to be sent to the server
 - `get` method is used to get the data from the server and `post` method is used to send the data to the server
 - `get` request is idempotent and `post` request is not idempotent
 - Data Sanitization - prevents the sql injection attacks, also prevents the xss attacks, etc
 - `htmlspecialchars()` is used to sanitize the data in php
 - A pure function is a function that does not have any side effects or dependencies
 - `filter_var` is used to filter the data in php based on the filter type
+
+## 04 Project Organization
+
+- move similar files (i.e. related topics) into a folder to organize the code. This improves readability
+- `extract` function is used to extract the variables from the array in php. Check view function in functions.php
+- `spl_autoload_register` is used to autoload the classes in php without using the require or include statements
+- namespace is used to avoid the conflicts between the classes in php; Alternatively, we can use the `use` keyword to avoid the conflicts
+- Service Container - used to store the instances of the classes in php that can be used throughout the application
+- check the `routes.php` for the routes in the application and how they are configured to allow and handle different types of requests
 

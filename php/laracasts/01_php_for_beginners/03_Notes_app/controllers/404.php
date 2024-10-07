@@ -2,4 +2,4 @@
 
 $heading = "Error Page";
 
-require 'views/404.view.php';
+require base_path('views/404.php', ['heading' => $heading]);

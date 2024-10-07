@@ -2,4 +2,4 @@
 
 $heading = "Unauthorized access";
 
-require 'views/403.view.php';
+require base_path('views/403.php', ['heading' => $heading]);
