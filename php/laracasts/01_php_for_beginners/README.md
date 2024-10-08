@@ -85,3 +85,10 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - `session_regenerate_id` and `session_get_cookie_params` are used to regenerate the session id and get the session cookie parameters respectively
 - `password_hash` and `password_verify` are used to hash and verify the password in php
 - Check `Middleware` file for the middleware implementation in php. Middleware is used to check the user authentication before accessing the routes
+
+## 06 Refactoring Techniques
+
+- RPG pattern (Redirect - POST - GET)  - used to prevent the form resubmission
+- Session Flashing - used to store the session data for a single request/user
+- Revisit on this topic to understand the concepts better. TODO
+

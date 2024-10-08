@@ -7,4 +7,6 @@ return [
         'dbname' => 'laracasts',
         'charset' => 'utf8mb4'
     ],
+
+    //
 ];

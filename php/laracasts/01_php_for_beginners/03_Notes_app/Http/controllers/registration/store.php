@@ -11,7 +11,7 @@ $password = $_POST['password'];
 
 $errors = [];
 if (!Validator::email($email)) {
-    $errors['email'] = 'Please provide a valid email address.';
+   $errors['email'] = 'Please provide a valid email address.';
 }
 
 if (!Validator::string($password, 7, 255)) {
