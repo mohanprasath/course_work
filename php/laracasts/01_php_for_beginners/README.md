@@ -70,3 +70,18 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - Service Container - used to store the instances of the classes in php that can be used throughout the application
 - check the `routes.php` for the routes in the application and how they are configured to allow and handle different types of requests
 
+## 05 Sessions and Authentication
+
+- `$_SESSION` is a super global in php, used to store the session data
+- `session_start()` is used to start the session in php and `session_destroy()` is used to destroy the session
+- `$_SESSION['name'] = 'value'` is used to store the session data, `unset($_SESSION['name'])` is used to unset the session data
+- `php --info` is used to get the php configuration information; `session.save_path` is used to get the session save path
+- for missing session data in save path, check the permissions of the folder; or check the `/tmp` folder for the session data
+- All session files are stored in the `/tmp` folder with the prefix `sess_`
+- Sessions are persisted in the server side and cookies are persisted in the client side, if any one of them is missing, the session will not work
+- Sessions can be used to store the user data, cart data, etc. Remembering the user data is the main use case of the sessions
+- function chaining is used to call the functions one after the other in php. This depends on the return value fo the previous function. SO ensure a return value `$this`exists in the function.
+- Be wary during imports `use` and declaring namespaces in php. It can lead to conflicts and errors in the code. 
+- `session_regenerate_id` and `session_get_cookie_params` are used to regenerate the session id and get the session cookie parameters respectively
+- `password_hash` and `password_verify` are used to hash and verify the password in php
+- Check `Middleware` file for the middleware implementation in php. Middleware is used to check the user authentication before accessing the routes
