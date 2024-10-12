@@ -112,14 +112,14 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - check `tests\Unit\ContainerTest.php` for the test cases in the php
 - Unit tests are used to test the individual units of the code in the php. This increase the code quality and reduces the bugs in the code.
 
-## Testing
+## 08 Testing
 
 - Feature and Unit folders in tests directory are used to store the feature and unit tests in the php
 - pest automatically runs the tests in the php and creates the above folders
 - Testing can be a necessity (1) or the testinng influence the design of the code (2): Two ways mentioned 
 - check `ValidatorTest.php` in Unit folder for the test cases in the php
 
-## Next Steps - Starting from the scratch
+## 09 Next Steps - Starting from the scratch
 
 - Check out Laravel Herd for basic setup
 - Run ` composer create-project laravel/laravel 04_laravel_notes_app`
