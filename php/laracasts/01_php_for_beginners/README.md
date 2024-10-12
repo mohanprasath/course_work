@@ -92,3 +92,39 @@ Pick any langauge and then learn the concepts. Expand it from there.
 - Session Flashing - used to store the session data for a single request/user
 - Revisit on this topic to understand the concepts better. TODO
 
+## 07 Composer Autoloading
+
+- `composer init` is used to initialize the composer in php
+- `composer install` is used to install the dependencies in the php
+- `composer dump-autoload` is used to autoload the classes in php
+- `composer require` is used to install the dependencies in the php
+- `composer update` is used to update the dependencies in the php
+- The packages are stored in the `vendor` folder in the php
+- `autoload` is used to autoload the classes in the php
+- Check packagelist.org for the list of packages available in the composer
+- psr4 is used to autoload the classes in the composer
+- After each composer update, run the `composer dump-autoload` to autoload the classes
+- `composer search collections` is used to search the packages in the composer for the collections
+- `composer require illuminate/collections` is used to install the illuminate collections package in the composer
+- `composer require pestphp/pest --dev` is used to install the pestphp package in the composer for testing
+- Now check the `composer.json` for a new section `require-dev` which contains the dev dependencies 
+- Now run `./vendor/bin/pest` to run the tests in the php'
+- check `tests\Unit\ContainerTest.php` for the test cases in the php
+- Unit tests are used to test the individual units of the code in the php. This increase the code quality and reduces the bugs in the code.
+
+## Testing
+
+- Feature and Unit folders in tests directory are used to store the feature and unit tests in the php
+- pest automatically runs the tests in the php and creates the above folders
+- Testing can be a necessity (1) or the testinng influence the design of the code (2): Two ways mentioned 
+- check `ValidatorTest.php` in Unit folder for the test cases in the php
+
+## Next Steps - Starting from the scratch
+
+- Check out Laravel Herd for basic setup
+- Run ` composer create-project laravel/laravel 04_laravel_notes_app`
+- command line utility `php artisan` is used to run the commands in the laravel
+- `php artisan serve` is used to start the server in the laravel
+- `*.blade.php` are usually the ending extensions for the view files. i.e. Blade template engine
+- `@if()` is a directive in the blade template engine - shorthand for the php if statement
+- `php artisan make:controller HomeController` is used to create the controller in the laravel
