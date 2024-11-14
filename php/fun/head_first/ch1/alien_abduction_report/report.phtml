@@ -1,33 +1,39 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<?php
+echo '$_POST';
+var_dump($_POST);
+var_dump($_SERVER);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    echo 'POST request received';
+    $first_name = isset($_POST['first_name']) ? htmlspecialchars($_POST['first_name']) : '';
+    $last_name = isset($_POST['last_name']) ? htmlspecialchars($_POST['last_name']) : '';
+    $email = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
+    $when_it_happened = isset($_POST['when_it_happened']) ? htmlspecialchars($_POST['when_it_happened']) : '';
+    $how_long = isset($_POST['how_long']) ? htmlspecialchars($_POST['how_long']) : '';
+    $how_many = isset($_POST['how_many']) ? htmlspecialchars($_POST['how_many']) : '';
+    $what_they_did = isset($_POST['what_they_did']) ? htmlspecialchars($_POST['what_they_did']) : '';
+    $what_they_looked_like = isset($_POST['what_they_looked_like']) ? htmlspecialchars($_POST['what_they_looked_like']) : '';
+    $have_you_seen_my_dog = isset($_POST['have_you_seen_my_dog']) ? htmlspecialchars($_POST['have_you_seen_my_dog']) : '';
+
+    $output_string = $first_name . ' ' . $last_name . ' ' . $email . ' ' . $when_it_happened . ' ' . $how_long . ' ' . $how_many . ' ' . $what_they_did . ' ' . $what_they_looked_like . ' ' . $have_you_seen_my_dog . "\n";
+    var_dump($output_string);
+    try {
+        $filename = 'report.txt';
+        file_put_contents($filename, $output_string, FILE_APPEND);
+        # echo "Report submitted successfully";
+    } catch (Exception $e) {
+        var_dump($e);
+        error_log("Error: " . $e->getMessage());
+        #  echo $e->getMessage();
+
+    }
+}
+?>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Aliens Abducted Me - Report an Abduction</title>
 </head>
 <body>
 <h2>Aliens Abducted Me - Report an Abduction</h2>
-
-<?php
-
-# get all the submitted values from the html form
-
-$first_name = $_POST['first_name'];
-$last_name = $_POST['last_name'];
-$email = $_POST['email'];
-$when_it_happened = $_POST['when_it_happened'];
-$how_long = $_POST['how_long'];
-$how_many = $_POST['how_many'];
-$what_they_did = $_POST['what_they_did'];
-$what_they_looked_like = $_POST['what_they_looked_like'];
-$have_you_seen_my_dog = $_POST['have_you_seen_my_dog'];
-
-# write the values to a text file
-
-$output_string = $first_name . ' ' . $last_name . ' ' . $email . ' ' . $when_it_happened . ' ' . $how_long . ' ' . $how_many . ' ' . $what_they_did . ' ' . $what_they_looked_like . ' ' . $have_you_seen_my_dog . "\n";
-var_dump($output_string);
-$filename = 'report.txt';
-file_put_contents($filename, $output_string, FILE_APPEND);
-
-?>
-
 </body>
 </html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alien Abductions</title>
+</head>
+<body>
+<h1>Alien Abductions</h1>
+<div>
+    <p>Aliens have been abducting people for centuries. They have been taking people from all over the world. They have
+        been taking people from all walks of life. They have been taking people from all ages.</p>
+</div>
+<div style="display: table; height: 400px; overflow: hidden;">
+    <form method="post" action="report.phtml" class="display: table-cell; vertical-align: middle; ">
+        <label for="first_name">First Name</label>
+        <input id="first_name" type="text" name="first_name" placeholder="First Name"><br/>
+        <label for="last_name">Last Name</label>
+        <input id="last_name" type="text" name="last_name" placeholder="Last Name"><br/>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Email"><br/>
+        <label for="when_it_happened">When it happened</label>
+        <input id="when_it_happened" type="datetime-local" name="when_it_happened" placeholder="When"><br/>
+        <label for="how_long">How Long</label>
+        <input id="how_long" type="text" name="how_long" placeholder="How Long"><br/>
+        <label for="how_many">How Many</label>
+        <input id="how_many" type="text" name="how_many" placeholder="How Many"><br/>
+        <label for="what_they_did">What They Did</label>
+        <input id="what_they_did" type="text" name="what_they_did" placeholder="What They Did"><br/>
+        <label for="what_they_looked_like">What They Looked Like</label>
+        <input id="what_they_looked_like" type="text" name="what_they_looked_like"
+               placeholder="What They Looked Like"><br/>
+        <label for="where">Where</label>
+        <input id="where" type="text" name="where" placeholder="Where"><br/>
+        <label id="have_you_seen_my_dog_label">Have you seen my dog Sammy</label><br/>
+        <label for="have_you_seen_my_dog_yes">Yes</label>
+        <input type="radio" id="have_you_seen_my_dog_yes" name="have_you_seen_my_dog" value="Yes"><br/>
+        <label for="have_you_seen_my_dog_no">No</label>
+        <input type="radio" id="have_you_seen_my_dog_no" name="have_you_seen_my_dog" value="No">No<br/>
+        <img src="sammy.jpeg" style="height: 200px; width: 200px;" alt="Picture of my missing dog Sammy">
+        <br/>
+        <input type="submit" value="Report the abduction" name="Submit">
+    </form>
+</div>
+</body>
+</html>

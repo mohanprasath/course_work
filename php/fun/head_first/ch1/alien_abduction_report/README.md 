@@ -1,0 +1,9 @@
+# Alien Abduction Email Reporting - Head First PHP & MySQL - Chapter 1 Project
+
+## Project Requirements
+
+- basic form to get the report
+- another form to show the report with an option to email or edit the report
+- a welcome page
+- a thank you page and an option to inform what action was completed by the user
+

@@ -1,8 +1,8 @@
 <?php
 
 $router->get('/', 'index.php');
-$router->get('/about', 'about.php');
-$router->get('/contact', 'contact.php');
+$router->get('/about', 'about.blade.php');
+$router->get('/contact', 'contact.blade.php');
 
 $router->get('/notes', 'notes/index.php')->only('auth');
 $router->get('/note', 'notes/show.php');

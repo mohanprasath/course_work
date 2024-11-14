@@ -5,8 +5,8 @@ $uri = $_SERVER['REQUEST_URI'];
 $url = parse_url($uri, PHP_URL_PATH);
 
 $routes = [
-    '/about' => 'about.php',
-    '/contact' => 'contact.php',
+    '/about' => 'about.blade.php',
+    '/contact' => 'contact.blade.php',
     '/' => 'index.php'
 ];
 
