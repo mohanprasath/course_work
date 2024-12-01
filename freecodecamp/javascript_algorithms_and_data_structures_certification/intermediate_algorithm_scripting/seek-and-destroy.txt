@@ -1,0 +1,9 @@
+function destroyer(arr) {
+  let args_sliced = Array.from(arguments).slice(1);
+  console.log(arguments, '\n', args_sliced);
+  return arr.filter(function(val){
+    return !args_sliced.includes(val);
+  });
+}
+
+console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));

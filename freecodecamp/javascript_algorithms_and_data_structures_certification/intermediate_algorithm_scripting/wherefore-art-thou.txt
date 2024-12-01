@@ -1,0 +1,18 @@
+function whatIsInAName(collection, source) {
+  var arr = [];
+  // Only change code below this line
+  console.log(collection, '\n', source)
+  // step 1 : get all the keys from the source
+  let sourceKeys = Object.keys(source);
+  console.log(sourceKeys);
+  // step 2 : filter the collection
+  return collection.filter(function(obj){
+    return sourceKeys.every(function(srcKey){
+      return obj.hasOwnProperty(srcKey) && obj[srcKey] === source[srcKey];
+    })
+  });
+  // Only change code above this line
+
+}
+
+console.log(whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" }));
